@@ -30,3 +30,4 @@ class ConsolePublisher : IMessagePublisher
         return Task.CompletedTask;
     }
 }
+//для коммита
