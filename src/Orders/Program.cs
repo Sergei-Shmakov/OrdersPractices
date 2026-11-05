@@ -11,7 +11,7 @@ var cmd = new NewOrder(new List<OrderItem>
 {
     new("Книга", 300m, 2),
     new("Ручка", 50m, 1),
-    new("Тетрадь", 350m, 1),
+    new("тетрадь", 350m, 1),
 });
 
 var id = await service.CreateAsync(cmd);
