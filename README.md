@@ -388,3 +388,6 @@ GitHub позволяет сгенерировать готовый Markdown-к�
 - **осмысленная записка о найденных и исправленных ошибках**.
 
 Подсказка: если тест из таблицы падает, сначала проверьте, правильно ли вы написали тест, затем перечитайте условие в комментариях к коду. Тест может показывать настоящую ошибку в программе.
+
+
+[![build and test](https://github.com/Sergei-Shmakov/OrdersPractices/actions/workflows/ci.yml/badge.svg)](https://github.com/Sergei-Shmakov/OrdersPractices/actions/workflows/ci.yml)
