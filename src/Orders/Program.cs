@@ -17,7 +17,7 @@ var cmd = new NewOrder(new List<OrderItem>
 var id = await service.CreateAsync(cmd);
 var order = await repo.FindAsync(id);
 
-Console.WriteLine($"Заказ {id}");
+Console.WriteLine($"Номер заказа {id}");
 Console.WriteLine($"Сумма заказа: {order!.Total()}");
 Console.WriteLine($"К оплате:     {await service.GetPayableAsync(id)}");
 
